@@ -26,11 +26,11 @@
 
     padding: 63px 24px;
 
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-size: 18px;
     line-height: 1.5556;
 
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     opacity: 0;
     pointer-events: none;
 
@@ -50,15 +50,15 @@
 .case__content {
     padding: 20px 24px;
 
-    border-bottom: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
-    border-left: 1px solid var(--border-color);
+    border-bottom: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    border-left: 1px solid $border-color;
 }
 
 .case__title {
     margin-bottom: 4px;
 
-    color: var(--title-text-color);
+    color: $title-text-color;
 
     font-weight: 700;
     font-size: 18px;
