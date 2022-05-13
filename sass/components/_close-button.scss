@@ -25,7 +25,6 @@
 
     .close-button:hover &,
     .close-button:focus & {
-        fill: &accent-color;
+        fill: $accent-color;
     }
 }
-
